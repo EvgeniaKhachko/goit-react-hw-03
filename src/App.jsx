@@ -6,7 +6,6 @@ import "./App.css";
 import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
 import ContactList from "./components/ContactList/ContactList";
-import Contact from "./components/Contact/Contact";
 
 function App() {
   const [contacts, setContacts] = useState(() => {
